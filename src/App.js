@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/todos' element={<Todos />} />
-          <Route path='/todo' element={<Todo />} />
+          <Route path='/todo/:id' element={<Todo />} />
           <Route path='*' element={<Error404 />} />
         </Routes>
         <Footer />
